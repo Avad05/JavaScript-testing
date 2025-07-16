@@ -10,4 +10,12 @@ module.exports = {
     clean: true,
   },
 
+  rules: [
+    {
+        test: /\.jsx?$/,
+        exclude: ['node_modules'],
+        use: ['babel-loader'],
+      },
+  ],
+
 } 

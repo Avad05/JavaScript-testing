@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Avad05/JavaScript-testing#readme",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
     "webpack": "^5.100.2",
     "webpack-cli": "^6.0.1"
   }
